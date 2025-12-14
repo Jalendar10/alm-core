@@ -8,15 +8,29 @@
 
 ## 🚀 Quick Setup
 
-### One-Command Installation
+### Install from PyPI (Recommended)
+
+```bash
+pip install alm-core
+```
+
+That's it! Package includes all core dependencies.
+
+### Install from Source
+
+**Clone and use one-command setup:**
 
 **Linux/macOS:**
 ```bash
+git clone https://github.com/Jalendar10/alm-core.git
+cd alm-core
 chmod +x SETUP.sh && ./SETUP.sh
 ```
 
 **Windows:**
 ```cmd
+git clone https://github.com/Jalendar10/alm-core.git
+cd alm-core
 SETUP.bat
 ```
 
@@ -27,17 +41,10 @@ The setup script will automatically:
 - ✅ Configure environment files
 - ✅ Make scripts executable
 
-### Manual Installation
-
+**Or install manually:**
 ```bash
-# Clone repository
 git clone https://github.com/Jalendar10/alm-core.git
 cd alm-core
-
-# Install from PyPI
-pip install alm-core
-
-# Or install from source
 pip install -e .
 ```
 
