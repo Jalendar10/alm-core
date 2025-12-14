@@ -6,6 +6,43 @@
 
 **Agent Language Model (ALM)** is a deterministic, policy-driven architecture for building robust AI agents. Unlike traditional LLM agents where the language model controls execution, ALM implements a **Belief-Desire-Intention (BDI)** state machine that treats the LLM as a cognitive tool, not a master.
 
+## 🚀 Quick Setup
+
+### One-Command Installation
+
+**Linux/macOS:**
+```bash
+chmod +x SETUP.sh && ./SETUP.sh
+```
+
+**Windows:**
+```cmd
+SETUP.bat
+```
+
+The setup script will automatically:
+- ✅ Verify Python 3.8+ installation
+- ✅ Create virtual environment
+- ✅ Install all dependencies
+- ✅ Configure environment files
+- ✅ Make scripts executable
+
+### Manual Installation
+
+```bash
+# Clone repository
+git clone https://github.com/Jalendar10/alm-core.git
+cd alm-core
+
+# Install from PyPI
+pip install alm-core
+
+# Or install from source
+pip install -e .
+```
+
+---
+
 ## 🎯 Core Innovations
 
 ### 1. **Constitutional Policy Engine**
